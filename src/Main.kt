@@ -45,8 +45,6 @@ fun main() {
     //The initial option to start menu
     val option = 0
 
-
-
     //Run menu until the user selects the exit option (7)
     while (option != 7){
         //Display menu options
