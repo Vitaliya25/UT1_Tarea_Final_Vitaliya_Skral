@@ -13,8 +13,8 @@ fun main() {
     // Create an instance of PokemonCenter
     val pokemonCenter = PokemonCenter()
 
-//    //-----------------------------------------
-//    // Create Pokémon to test the functionality of the program
+//    -----------------------------------------
+//    Create Pokémon to test the functionality of the program
 //    val trainers = listOf(
 //        Trainer("Ash", "Ketchum", 1),
 //        Trainer("Misty", "Waterflower", 2),
@@ -88,7 +88,6 @@ fun main() {
 
                     // Read Pokémon category and process each case
                     println("Pokémon category (common, special, legendary):")
-//                    var category = readLine() ?: ""
                     do{
                         val category = readLine() ?: ""
 
@@ -201,9 +200,9 @@ fun main() {
                     if (pokemonCenter.increaseLevel(id, quantity)){
                         println("Pokemon's level increased with success!\n")
                     }
-//                    else{
-//                        println("Pokémon's level couldn't be increased!\n")
-//                    }
+                    else{
+                        println("Pokémon's level couldn't be increased!\n")
+                    }
                 }
                 else println("Pokémon '$id' doesn’t exist!\n")
             }
